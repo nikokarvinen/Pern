@@ -1,4 +1,4 @@
-const Pool = require('pg').Pool;
+const Pool = require('pg').Pool
 
 const pool = new Pool({
   user: process.env.DB_USERNAME,
@@ -6,6 +6,6 @@ const pool = new Pool({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   database: 'perntodo',
-});
+})
 
-module.exports = pool;
+module.exports = pool
