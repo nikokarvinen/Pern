@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import './App.css';
+import React, { Fragment } from 'react'
+import './App.css'
 
 //components
 
-import InputTodo from './components/inputTodo';
+import InputTodo from './components/inputTodo'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <InputTodo />
       </div>
     </Fragment>
-  );
+  )
 }
 
-export default App;
+export default App
